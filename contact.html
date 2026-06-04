@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - KAPETARA Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo"><a href="index.html">KAPETARA</a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div style="margin-bottom: 2rem; text-align: center;">
+                <p><strong>Address:</strong> #162 Zapote 1  Bacoor City, Cavite </p>
+                <p><strong>Phone:</strong> +63 908 653 5829 | <strong>Email:</strong> jppued@gmail.com</p>
+            </div>
+
+            <form action="#" method="POST" onsubmit="alert('Message sent successfully!'); return false;">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="yourname@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required placeholder="Your message here..."></textarea>
+                </div>
+                <button type="submit">Submit Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 KAPETARA Cafe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
